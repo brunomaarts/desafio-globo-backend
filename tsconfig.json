@@ -20,8 +20,7 @@
       "@app/*": ["app/*"],
       "@entities/*": ["app/entities/*"],
       "@repositories/*": ["app/repositories/*"],
-      "@useCases/*": ["app/useCases/*"],
-      "@helpers/*": ["app/helpers/*"]
+      "@useCases/*": ["app/useCases/*"]
     }
   }
 }

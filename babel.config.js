@@ -16,8 +16,7 @@ module.exports = {
         '@app': './src/app',
         '@entities': './src/app/entities',
         '@repositories': './src/app/repositories',
-        '@useCases': './src/app/useCases',
-        '@helpers': './src/app/helpers'
+        '@useCases': './src/app/useCases'
       },
     }],
     [
