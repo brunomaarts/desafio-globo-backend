@@ -5,10 +5,10 @@ export class Artist {
   @ObjectIdColumn()
   public readonly id: ObjectID
 
-  @Column()
+  @Column('text', { nullable: false })
   public artistName: string
 
-  @Column()
+  @Column('number', { nullable: false })
   public artistId: number
 
   constructor(props: Omit<Artist, 'id'>) {

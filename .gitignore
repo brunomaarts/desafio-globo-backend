@@ -5,7 +5,7 @@ ormconfig.env
 .vscode/
 node_modules/
 src/public
-build/
+dist/
 tmp/
 temp/
 yarn.lock

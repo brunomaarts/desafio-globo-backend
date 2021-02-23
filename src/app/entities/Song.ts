@@ -5,16 +5,16 @@ export class Song {
   @ObjectIdColumn()
   public readonly id: ObjectID
 
-  @Column()
+  @Column('text', { nullable: false })
   public trackName: string
 
-  @Column()
+  @Column('number', { nullable: false })
   public artistId: number
 
-  @Column()
+  @Column('number', { nullable: false })
   public trackId: number
 
-  @Column()
+  @Column('number', { nullable: false })
   public collectionId: number
 
   constructor(props: Omit<Song, 'id'>) {

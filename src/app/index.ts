@@ -1,12 +1,13 @@
-import express from "express";
-import dotenv from "dotenv";
-import "../database/connect";
-import { router } from "./routes";
+import express from 'express'
+import dotenv from 'dotenv'
+import 'reflect-metadata'
+import '../database/connect'
+import { router } from './routes'
 
-dotenv.config();
-const app = express();
+dotenv.config()
+const app = express()
 
-app.use(express.json());
-app.use(router);
+app.use(express.json())
+app.use(router)
 
-export { app };
+export { app }
